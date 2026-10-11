@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "builderbotmod",
+  "version": "1.0.0",
+  "name": "BuilderBot Mod",
+  "description": "A Fabric mod for Minecraft 1.21.11 that implements a BuilderBot AI",
+  "authors": [
+    "lnaik8556"
+  ],
+  "contact": {
+    "homepage": "https://github.com/lnaik8556/builderbotmod",
+    "sources": "https://github.com/lnaik8556/builderbotmod"
+  },
+  "license": "MIT",
+  "icon": "assets/builderbotmod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.lnaik8556.builderbotmod.BuilderBotMod"
+    ]
+  },
+  "mixins": [
+    "builderbotmod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "1.21.11",
+    "fabric-api": "*"
+  }
+}

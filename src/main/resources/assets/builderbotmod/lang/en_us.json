@@ -1,0 +1,8 @@
+{
+  "builderbotmod.builder.spawn": "BuilderBot spawned!",
+  "builderbotmod.builder.build": "Building structure: %s",
+  "builderbotmod.builder.prompt": "Building from prompt: %s",
+  "builderbotmod.builder.stop": "Building stopped",
+  "builderbotmod.builder.resume": "Building resumed",
+  "builderbotmod.builder.despawn": "BuilderBot despawned"
+}
